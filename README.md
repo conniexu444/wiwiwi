@@ -14,3 +14,9 @@ After setting up everything, this is where I got as just a proof of concept:
 ![initialFlow](assets/initial_flow.gif)
 
 Silly, right?
+
+I went back to the Figma because I wanted to expand my ability with it. So I made a component that would on click open an envelope.
+
+![EnvelopeOpening](assets/envelopegif.gif)
+
+![figmaDesign](assets/figmascreenshot.png)
