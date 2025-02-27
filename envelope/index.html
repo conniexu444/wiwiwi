@@ -3,19 +3,21 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Wi WI WI</title>
+    <title>Envelope Animation</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
     <div class="container">
-        <div class="envelope" id="envelope">
-            <div class="flap"></div>
-            <div class="body"></div>
-            <div class="note" id="note">💌 Surprise Message!</div>
-        </div>
+        <input type="checkbox" id="toggle-envelope">
+        <label for="toggle-envelope" class="envelope">
+            <img src="assets/envelope_closed.png" alt="Closed Envelope" class="closed">
+            <img src="assets/envelope_open.png" alt="Open Envelope" class="open">
+        </label>
+
+        <!-- The image that pops out -->
+        <img src="assets/wiwiwi.jpeg" alt="Surprise Picture" class="picture">
     </div>
 
-    <script src="script.js"></script>
 </body>
 </html>

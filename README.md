@@ -20,3 +20,6 @@ I went back to the Figma because I wanted to expand my ability with it. So I mad
 ![EnvelopeOpening](assets/envelopegif.gif)
 
 ![figmaDesign](assets/figmascreenshot.png)
+
+Okay, and here is the final design:
+![wiwiwi](assets/wiwiwiwi.gif)
