@@ -1,0 +1,67 @@
+/* General page styling */
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f4f4f4;
+    margin: 0;
+}
+
+/* Envelope container */
+.container {
+    position: relative;
+}
+
+/* Envelope */
+.envelope {
+    width: 150px;
+    height: 100px;
+    position: relative;
+    background: #ffcc66;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+}
+
+/* Envelope flap */
+.flap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+    border-left: 75px solid transparent;
+    border-right: 75px solid transparent;
+    border-bottom: 50px solid #ff9900;
+    transform-origin: top;
+    transition: transform 0.4s ease-in-out;
+}
+
+/* Envelope body */
+.body {
+    position: absolute;
+    top: 25px;
+    width: 150px;
+    height: 75px;
+    background: #ffcc66;
+    border-radius: 0 0 5px 5px;
+}
+
+/* Hidden Note */
+.note {
+    position: absolute;
+    top: 25px;
+    left: 10px;
+    width: 130px;
+    height: 80px;
+    background: white;
+    text-align: center;
+    line-height: 80px;
+    font-size: 18px;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transform: translateY(100%);
+    opacity: 0;
+    transition: transform 0.4s ease-in-out, opacity 0.4s ease-in-out;
+}
