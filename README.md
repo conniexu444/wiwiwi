@@ -8,3 +8,9 @@ And of course the tiktok is the "WI WI WI" cat. Who I love.
 Here is a video of the simple Figma I made for this because I really haven't touched anything design related in so long due to the nature of my job:
 
 ![WIWIWIGIF](assets/wiwiwi_gif.gif)
+
+After setting up everything, this is where I got as just a proof of concept:
+
+![initialFlow](assets/initial_flow.gif)
+
+Silly, right?
